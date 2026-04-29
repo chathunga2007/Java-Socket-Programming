@@ -1,4 +1,4 @@
-package lk.ijse;
+package lk.ijse.ClientToServer;
 
 import java.io.DataInputStream;
 import java.io.IOException;
