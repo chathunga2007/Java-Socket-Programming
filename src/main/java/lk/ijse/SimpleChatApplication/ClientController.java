@@ -43,11 +43,11 @@ public class ClientController {
             if (out != null && !msg.isEmpty()) {
                 out.writeUTF(msg);
                 out.flush();
-                chatArea.appendText("Me: " + msg + "\n");
+                chatArea.setText("Me: " + msg + "\n");
                 inputField.clear();
             }
         } catch (IOException e) {
-            chatArea.appendText("Error: Could not send message.\n");
+            chatArea.setText("Error: Could not send message.\n");
         }
     }
 }
